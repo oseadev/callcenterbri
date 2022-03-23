@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #333;
+}
+
+.content .content-title {
+  text-align: center;
+  padding: 3em 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.content {
+  background-color: #084d90;
+  height: 150vh;
+}
+
+.content .content-title .title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.content .content-title p {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1;
+  color: #f2f2f2;
+}
+
+.content-button {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 600px;
+  height: 60px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.wa {
+  background-image: linear-gradient(210deg, #ffffff 48%, #fcb404 100%);
+}
+
+.phone {
+  background-image: linear-gradient(210deg, #ffffff 48%, #528b42 100%);
+}
+
+.web {
+  background-image: linear-gradient(210deg, #ffffff 48%, #3bb2ff 100%);
+}
+
+.btn a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.btn a i {
+  font-size: 24px;
+  position: absolute;
+  left: 60px;
+  color: #084d90;
+}
+
+.content-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4em;
+  color: #fff;
+  gap: 20px;
+}
+
+.content-address-title h2 {
+  font-weight: 300;
+  font-family: 'Source Serif Pro', sans-serif;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.content-address-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  header img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+  }
+
+  .content-title p {
+    font-size: 12px;
+  }
+
+  .btn {
+    width: 250px;
+    height: 60px;
+  }
+
+  .btn a h3 {
+    font-size: 12px;
+  }
+
+  .btn a i {
+    font-size: 18px;
+    position: absolute;
+    left: 30px;
+    color: #084d90;
+  }
+
+  .content-address-company h3 {
+    font-size: 18px;
+  }
+
+  .content-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-address-address span {
+    font-size: 14px;
+  }
+}
